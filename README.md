@@ -21,9 +21,13 @@ This project exhibits an LLM monitoring dashboard where the user can customize t
 ```
 npm create vite@latest 
 ```
-- Project name : customizable-dashboard
-- Select a framework : React
-- Select a variant : Typescript/ Recat Compiler
+
+```
+Project name : customizable-dashboard
+Select a framework : React
+Select a variant : Typescript/ React Compiler
+
+```
 
 - The other dependencies are installed by the below commands.
 
