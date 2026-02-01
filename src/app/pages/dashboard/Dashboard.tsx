@@ -61,12 +61,12 @@ const Dashboard = () => {
       latencyRefetch,
       costRefetch,
       handleChartDatas,
-      handleToast
+      handleToast,
     });
 
   return (
     <div className="flex flex-col overflow-hidden">
-      <div className="flex justify-between h-10 bg-primary">
+      <div className="flex md:flex-row justify-between h-15 md:h-10 bg-primary">
         <h2 className="text-2xl font-semibold">LLM Monitoring Dashboard</h2>
         <CustomButton
           name={"Add Widget"}
@@ -76,7 +76,7 @@ const Dashboard = () => {
         />
       </div>
       <div
-        className="h-[90vh] overflow-y-scroll no-scrollbar"
+        className=" h-[85vh] md:h-[90vh] overflow-y-scroll no-scrollbar"
         ref={containerRef}
       >
         {mounted && dashboardData?.some((chart) => chart.selected) ? (

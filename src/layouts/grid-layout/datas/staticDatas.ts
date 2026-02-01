@@ -92,6 +92,29 @@ const chartLayouts = {
       i: "cost",
     },
   ],
+  xxs: [
+    {
+      w: 4,
+      h: 2,
+      x: 0,
+      y: 0,
+      i: "token",
+    },
+    {
+      w: 4,
+      h: 2,
+      x: 0,
+      y: 0,
+      i: "latency",
+    },
+    {
+      w: 4,
+      h: 2,
+      x: 0,
+      y: 0,
+      i: "cost",
+    },
+  ],
 };
 
 export { chartLayouts };
