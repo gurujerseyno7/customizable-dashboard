@@ -2,7 +2,6 @@ import type { GridLayoutProps } from "./types/gridLayoutTypes";
 import {
   Responsive,
   verticalCompactor,
-  type LayoutItem,
 } from "react-grid-layout";
 import "react-grid-layout/css/styles.css";
 import "react-resizable/css/styles.css";

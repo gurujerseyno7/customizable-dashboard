@@ -2,13 +2,10 @@ import type { QueryObserverResult } from "@tanstack/react-query";
 import type {
   CostAnalysisResponse,
   LatencyDistributionResponse,
-  OverallResponse,
   TokenUsageResponse,
 } from "../../../../services/types/mockApiTypes";
-import type { PrimitiveTypes } from "../../../../types/basicTypes";
 import type {
   ChartCategories,
-  ChartCategoriesData,
   UseHandleChartsParams,
 } from "../../../types/dashboardTypes";
 

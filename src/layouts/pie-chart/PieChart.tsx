@@ -1,7 +1,7 @@
 import { Pie, PieChart } from "recharts";
 import type { PieChartProps } from "./types/pieChartTypes";
 
-const PieChartLayout = ({ width, height, data, ...props }: PieChartProps) => {
+const PieChartLayout = ({ width, height, data,  }: PieChartProps) => {
   return (
     <PieChart width={width} height={height}>
       <Pie

@@ -19,7 +19,7 @@ import type { Layout } from "react-grid-layout";
 
 //store for dashboard details
 const dashboardStore = persist(
-  (set: Function, get: Function) => ({
+  (set: Function, ) => ({
     chartCategories: chartCategory,
     chartLayouts: chartLayouts,
     chartDatas: [],
@@ -49,12 +49,12 @@ const dashboardStore = persist(
       }));
     },
     handleChartLayouts: (layouts: Layout) => {
-      set((state: DashboardStoreState) => ({
+      set(() => ({
         chartLayouts: layouts,
       }));
     },
     handleBreakpoint: (breakpoint: PrimitiveTypes["string"]) => {
-      set((state: DashboardStoreState) => ({
+      set(() => ({
         breakpoint: breakpoint,
       }));
     },

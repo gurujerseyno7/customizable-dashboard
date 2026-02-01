@@ -31,7 +31,7 @@ const Dashboard = () => {
       handleToast: state.handleToast,
     })),
   );
-  const { open, setOpen, setChartCategories } = useCommonDashboardStates();
+  const { open, setOpen } = useCommonDashboardStates();
 
   const { width, containerRef, mounted } = useContainerWidth();
 
