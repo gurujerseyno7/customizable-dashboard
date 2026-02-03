@@ -2,7 +2,7 @@ import type { Layout, LayoutItem } from "react-grid-layout";
 import type {
   ChartCategories,
   ChartCategoriesData,
-} from "../../app/types/dashboardTypes";
+} from "../../../types/dashboardTypes";
 import type { PrimitiveTypes } from "../../types/basicTypes";
 
 //type for message toast

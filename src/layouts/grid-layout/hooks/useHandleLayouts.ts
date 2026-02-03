@@ -2,7 +2,7 @@
 
 import type { Layout, LayoutItem } from "react-grid-layout";
 import type { PrimitiveTypes } from "../../../types/basicTypes";
-import type { ChartCategoriesData } from "../../../app/types/dashboardTypes";
+import type { ChartCategoriesData } from "../../../../types/dashboardTypes";
 import type { UseHandleLayoutsTypes } from "../types/gridLayoutTypes";
 
 const useHandleLayouts = ({
@@ -18,7 +18,7 @@ const useHandleLayouts = ({
         !newLayout?.map((item) => item.i)?.includes(layout.i),
     );
 
-    const modifieldLayouts = [...newLayout, ...filteredTitles as Layout];
+    const modifieldLayouts = [...newLayout, ...(filteredTitles as Layout)];
     const updatedLayouts = {
       ...chartLayouts,
       [breakpoint]: modifieldLayouts,
@@ -36,7 +36,6 @@ const useHandleLayouts = ({
       ...chart,
       type: title === chart.title ? type : chart.type,
     }));
-
 
     handleChartSelection(updatedCharts);
   };

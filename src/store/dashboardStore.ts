@@ -11,7 +11,7 @@ import type {
 import type {
   ChartCategories,
   ChartCategoriesData,
-} from "../app/types/dashboardTypes";
+} from "../../types/dashboardTypes";
 import { chartLayouts } from "../layouts/grid-layout/datas/staticDatas";
 import type { OverallResponse } from "../services/types/mockApiTypes";
 import { persist } from "zustand/middleware";
@@ -19,7 +19,7 @@ import type { Layout } from "react-grid-layout";
 
 //store for dashboard details
 const dashboardStore = persist(
-  (set: Function, ) => ({
+  (set: Function) => ({
     chartCategories: chartCategory,
     chartLayouts: chartLayouts,
     chartDatas: [],

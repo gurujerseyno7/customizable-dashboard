@@ -1,7 +1,7 @@
 import LineChartLayout from "../../../../layouts/line-chart/LineChart";
 import BarChartLayout from "../../../../layouts/bar-chart/BarChart";
 import PieChartLayout from "../../../../layouts/pie-chart/PieChart";
-import type { ChartCategoriesData } from "../../../types/dashboardTypes";
+import type { ChartCategoriesData } from "../../../../../types/dashboardTypes";
 
 //list of chart  categories
 const chartCategory = [

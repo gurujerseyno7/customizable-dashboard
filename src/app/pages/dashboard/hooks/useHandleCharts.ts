@@ -7,7 +7,7 @@ import type {
 import type {
   ChartCategories,
   UseHandleChartsParams,
-} from "../../../types/dashboardTypes";
+} from "../../../../../types/dashboardTypes";
 
 //custom hook to handle chart selection
 const useHandleCharts = ({
