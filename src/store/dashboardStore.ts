@@ -11,7 +11,7 @@ import type {
 import type {
   ChartCategories,
   ChartCategoriesData,
-} from "../../types/dashboardTypes";
+} from "../app/pages/dashboard/types/dashboardTypes";
 import { chartLayouts } from "../layouts/grid-layout/datas/staticDatas";
 import type { OverallResponse } from "../services/types/mockApiTypes";
 import { persist } from "zustand/middleware";

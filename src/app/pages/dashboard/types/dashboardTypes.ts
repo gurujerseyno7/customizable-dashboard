@@ -1,10 +1,13 @@
-import type { LineChartProps } from "../src/layouts/line-chart/types/lineChartTypes";
-import type { OverallResponse } from "../src/services/types/mockApiTypes";
-import type { DashboardStoreState } from "../src/store/types/dashboardStoreTypes";
-import type { IndexedTypes, MappedTypes } from "../src/types/advancedTypes";
-import type { PrimitiveTypes } from "../src/types/basicTypes";
-import type { SetStateUpdate } from "../src/types/reactTypes";
-import type { TanStackQueryTypes } from "../src/types/tanstackQueryTypes";
+import type { LineChartProps } from "../../../../layouts/line-chart/types/lineChartTypes";
+import type { OverallResponse } from "../../../../services/types/mockApiTypes";
+import type { DashboardStoreState } from "../../../../store/types/dashboardStoreTypes";
+import type {
+  IndexedTypes,
+  MappedTypes,
+} from "../../../../types/advancedTypes";
+import type { PrimitiveTypes } from "../../../../types/basicTypes";
+import type { SetStateUpdate } from "../../../../types/reactTypes";
+import type { TanStackQueryTypes } from "../../../../types/tanstackQueryTypes";
 
 //type for chart categories
 type ChartCategories = {

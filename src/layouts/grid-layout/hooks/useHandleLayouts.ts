@@ -2,7 +2,7 @@
 
 import type { Layout, LayoutItem } from "react-grid-layout";
 import type { PrimitiveTypes } from "../../../types/basicTypes";
-import type { ChartCategoriesData } from "../../../../types/dashboardTypes";
+import type { ChartCategoriesData } from "../../../app/pages/dashboard/types/dashboardTypes";
 import type { UseHandleLayoutsTypes } from "../types/gridLayoutTypes";
 
 const useHandleLayouts = ({
